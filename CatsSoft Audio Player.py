@@ -25,12 +25,10 @@ from customtkinter import *
 import tkinter.ttk as ttk  # Import the ttk module
 from tktooltip import ToolTip
 from customtkinter.windows.widgets.image import CTkImage
-from CTkListbox import *
 import sys
 import os
 import struct
 import time
-import requests
 import platform
 import ctypes
 import ctypes as ct
@@ -53,7 +51,6 @@ from scipy.fft import fft
 from scipy.signal import find_peaks
 
 import math  # Import the math module
-import time
 import os
 import json
 import configparser
@@ -233,7 +230,7 @@ def get_meta_tags(stream):
 
 # System Settings
 customtkinter.set_appearance_mode("dark")  # Modes: system (default), light, dark
-customtkinter.set_default_color_theme("black")  # Themes: blue (default), dark-blue, green
+customtkinter.set_default_color_theme("dark-blue")  # Themes: blue (default), dark-blue, green
 
 def setup_interface(app):
     frame = Frame(app)
