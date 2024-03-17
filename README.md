@@ -17,3 +17,4 @@ pip install configparser
 pip install random
 pip install pickle
 pip install webbrowser
+![QFNSE](https://github.com/CatsSoft-Ro/CatsSoft-Audio-Player/assets/37184209/f8039d5a-f9b1-4dc2-b496-8357fa9d59f2)
